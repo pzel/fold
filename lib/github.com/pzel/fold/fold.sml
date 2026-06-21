@@ -1,5 +1,9 @@
 structure Fold:> FOLD =
    struct
+      fun id x = x
+
+      fun $ (x, f) = f x
+
       type ('a, 'b, 'c, 'd) step = 'a * ('b -> 'c) -> 'd
 
       type ('a, 'b, 'c, 'd) t = ('a, 'b, 'c, 'd) step -> 'd

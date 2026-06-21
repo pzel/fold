@@ -1,4 +1,5 @@
 package github.com/pzel/fold
 
 require {
+  github.com/pzel/assert 0.9.3 #dff0038113a4b45f0d3dbb65b1070ced5364adb9
 }
