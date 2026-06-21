@@ -1,5 +1,5 @@
 $(SML_LIB)/basis/basis.mlb
 $(SMLPKG)/github.com/pzel/assert/assert.mlb
 ../fold.mlb
-tests.sml
+test.sml
 call-main.sml
